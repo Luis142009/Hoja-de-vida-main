@@ -42,13 +42,18 @@ header {
 }
 
 .Educacionsecion {
-  width: 1250px;
+  width: 1270px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .educacioncontenedor {
   display: flex;
   gap: 30px;
+  width: 1270px;
+  margin: auto;
+  margin-top: 20px;
+
 
 }
 
@@ -56,34 +61,80 @@ header {
   background-color: #6096d4;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 1270px;
+
 }
 
 .descripcion {
   color: #080101;
-  font-size: 6;
+  font-size: 17px;
   font-family: cursive;
+  max-height: 200;
+  overflow: hidden;
 
 }
-.Sesion2{
-  display: flex;
-    width: 1000px
-    height: 25px;
-    gap: 20px; 
-    justify-content:space-evenly;
-    align-items:center;
-}
-.Experiencia{
+
+.Experiencia {
   margin: auto;
-  width: 1250px
-}
-.cuadro{
-  width: 250px;
-    height: 200px;
-    background-color: rgb(236, 240, 11);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 1270px
   
 }
 
+
+.cuboA {
+  display: flex;
+  gap: 30px;
+  width: 1270px;
+  margin: auto;
+  height: 250px;
+  margin-top: 20px;
+
+}
+
+.cubo {
+  width: 295px;
+  height: 250px;
+  background-color: #6096d4;
+  padding: 20px;
+  border-top: 10px solid #09022e;
+  border-radius: 5px
+}
+
+h3 {
+  color: #080101;
+  font-size: 20px;
+  font-family: cursive;
+
+}
+
+.cubo p {
+  max-height: 200;
+  overflow: hidden;
+  color: #080101;
+
+}
+.pagina {
+  display: flex;
+  padding: 40px;
+  width: 200px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  background-color: #f00c0c;
+  border-radius: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #080505;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
