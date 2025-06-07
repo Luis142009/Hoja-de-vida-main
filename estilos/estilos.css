@@ -76,8 +76,8 @@ header {
 
 .Experiencia {
   margin: auto;
-  width: 1270px
-  
+  width: 1270px;
+  margin-top: 20px;
 }
 
 
@@ -97,7 +97,9 @@ header {
   background-color: #6096d4;
   padding: 20px;
   border-top: 10px solid #09022e;
-  border-radius: 5px
+  border-radius: 5px;
+  
+  
 }
 
 h3 {
@@ -107,34 +109,70 @@ h3 {
 
 }
 
-.cubo p {
-  max-height: 200;
-  overflow: hidden;
+.progres {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  font-family: cursive;
   color: #080101;
-
-}
-.pagina {
-  display: flex;
-  padding: 40px;
-  width: 200px;
+  
 }
 
-.footer-social {
+
+.cuadrorojo {
+  background-color: #7a7b80;
   display: flex;
-  gap: 40px;
-  padding: 20px 40px;
-  background-color: #f00c0c;
+  width: 620px;
+  gap: 30px;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+.cuadroazul{
+  background-color: #7a7b80;
+  display: flex;
+  width: 625px;
+  height: 120px;
+  gap: 90px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-.social {
+.ingles {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  text-align: center;
+}
+
+
+.barra {
+  width: 100px;
+  height: 7px;
+  appearance: none;
+}
+
+
+.barra::-webkit-progress-bar {
+  background-color: #ffffff;
+ 
+}
+.barra.español::-webkit-progress-value{  background-color: #ca0b0b;}
+.barra.italiano::-webkit-progress-value{  background-color: #0827d6;}
+.barra.ingles::-webkit-progress-value{ background-color: rgb(248, 232, 8);}
+.barra.aleman::-webkit-progress-value{ background-color: #ff9d0b;}
+
+.redes {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #080505;
+
 }
 
-.icon {
-  width: 24px;
-  height: 24px;
+.icono {
+  width: 25px;
+  height: 25px;
 }
